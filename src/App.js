@@ -10,9 +10,6 @@ import Skills from './pages/Skills';
 import Contact from './pages/Contact';
 
 function App() {
-  
-  
-
   return (
     <div>
       {/*Nav Bar */}
@@ -26,7 +23,6 @@ function App() {
           <Route path='/about' element={<About />} />
           <Route path='/skills' element={<Skills />} />
           <Route path='/contact' element={<Contact />} />
-          
         </Routes>
       </div>
       </>
