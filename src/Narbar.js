@@ -8,6 +8,10 @@ export default function Navbar(){
         <ul>
             <CustomLink to="/projects">Projects</CustomLink>
             <CustomLink to="/experience">Experience</CustomLink>
+            <CustomLink to="/skills">Skills</CustomLink>
+            <CustomLink to="/about">About</CustomLink>
+            <CustomLink to="/contact">Contact</CustomLink>
+            
         </ul>
     </nav>
 }

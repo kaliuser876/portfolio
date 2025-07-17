@@ -5,6 +5,9 @@ import Projects from './pages/Project';
 import Home from './pages/Home';
 import React from 'react';
 import { Route, Routes} from "react-router-dom";
+import About from './pages/About';
+import Skills from './pages/Skills';
+import Contact from './pages/Contact';
 
 function App() {
   
@@ -20,6 +23,10 @@ function App() {
           <Route path='/portfolio' element={<Home />} />
           <Route path='/projects' element={<Projects />} />
           <Route path='/experience' element={<Experience />} />
+          <Route path='/about' element={<About />} />
+          <Route path='/skills' element={<Skills />} />
+          <Route path='/contact' element={<Contact />} />
+          
         </Routes>
       </div>
       </>
